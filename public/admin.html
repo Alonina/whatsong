@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - What's That Song?</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="admin.js"></script>
+</head>
+<body>
+    <h1>Admin Panel</h1>
+    <div id="login" class="section">
+        <button id="loginBtn">Login with Spotify</button>
+    </div>
+    <div id="game" class="section hidden">
+        <div>
+            <input type="text" id="search" placeholder="Search songs">
+            <button id="searchBtn">Search</button>
+        </div>
+        <ul id="results"></ul>
+        <h2>Current Track: <span id="currentTrack">None</span></h2>
+        <button id="revealBtn">Reveal Song</button>
+        <div class="groups">
+            <button id="group1Btn">קבוצה 1</button>
+            <button id="group2Btn">קבוצה 2</button>
+        </div>
+        <div class="scores">
+            <span>קבוצה 1: <span id="score1">0</span></span>
+            <span>קבוצה 2: <span id="score2">0</span></span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    background: #f5fff5;
+    font-family: Arial, sans-serif;
+    color: #191414;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background: #1db954;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.hidden { display: none; }
+
+.section { margin: 20px; }
+
+.groups button { margin: 5px; }
+
+.scores { margin-top: 20px; }
